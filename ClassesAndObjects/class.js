@@ -1,5 +1,5 @@
 class student {
-    student() {
+    student1() {
         console.log("This is not a Constructor, It is a Method");
     }
     constructor() {
