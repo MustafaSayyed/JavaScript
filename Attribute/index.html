@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute Practice</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            row-gap: 50px;
+            height: 100vh;
+            padding: 0;
+            margin: 0;
+            background-color: lightgray;
+        }
+
+        #test {
+            height: 200px;
+            width: 250px;
+            background-color:rgb(144, 37, 220);
+            border-radius: 5px;
+            padding: 20px;
+            font-size: 18px;
+            color: #fff;
+        }
+
+        .emergency {
+            height: 200px;
+            width: 250px;
+            font-size: 18px;
+            background-color: red;
+            padding: 10px;
+        }
+
+        button {
+            padding: 8px 12px;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-right: 20px;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <div class="emergency" id="test">
+        This Container designed for Testing Attributes
+        <br><br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sapiente eos maiores inventore qui eligendi.
+    </div>
+    <div class="btn-container">
+        <button id="show" onclick="showAttribute()">Get Attribute</button>
+        <button id="add">Set Attribute</button>
+        <button id="delete" onclick="removeAttribute()">Remove Attribute</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

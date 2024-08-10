@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+    font-family: cursive;
+}
+#btn{
+    width: 90px;
+    height: 28px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+h2{
+    /* font-style: italic; */
+    font-size: 60px;
+    color: red;
+}

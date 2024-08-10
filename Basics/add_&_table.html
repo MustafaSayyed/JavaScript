@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>additioon using JavaScript</title>
+</head>
+<body>
+    
+</body>
+<script>
+    var num1 = prompt("Enter first number: ");
+    var num2 = prompt("Enter second number: ");
+
+    var result = parseInt(num1) + parseInt(num2);
+    document.write("The addition of " + num1 + " and " + num2 + " is: " + result);
+
+    var result = parseInt(num1) - parseInt(num2);
+    document.write(" <br> The subtraction of " + num1 + " and " + num2 + " is: " + result);
+
+    var result = parseInt(num1) * parseInt(num2);
+    document.write(" <br> The multiplication of " + num1 + " and " + num2 + " is: " + result);
+
+    var result = parseInt(num1) / parseInt(num2);
+    document.write(" <br> The division of " + num1 + " and " + num2 + " is: " + result);
+
+    document.write(" <br> <br> The table of " + num1 + " is:");
+    var a = 1;
+    while(a <= 10){
+        var table = parseInt(num1) * a;
+        a++;
+        document.write("<br>" + table);
+    }
+
+</script>
+</html>
