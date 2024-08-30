@@ -19,15 +19,10 @@ for (let i = 1; i <= 5; i++) {
   console.log(pattern);
 }
 
-function printRightTriangle(height) {
-  let pattern = "";
-  for (let i = 1; i <= height; i++) {
-    for (let j = 0; j < i; j++) {
-      pattern += "* ";
-    }
-    pattern += "\n";
-  }
-  console.log(pattern);
-}
 
-printRightTriangle(5);
+for (let i = 1; i <= 5; i++) {
+    for (let j = 1; j <= i; j++) {
+        document.write(j + " ")        
+    }
+    document.write("<br>");
+}
